@@ -42,4 +42,4 @@
 // const city = "New York"
 // console.log(firstName.concat(" " , lastName , ", " , age , " living in ", city , " goes to temple."));
 const jsIntroduction = "JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.ECMA-262 is the official name of the standard. ECMAScript is the official name of the language."
-console.log(jsIntroduction.endsWith("."));
+console.log(jsIntroduction.endsWith("was" , 11));
