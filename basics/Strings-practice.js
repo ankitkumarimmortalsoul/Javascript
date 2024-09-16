@@ -36,8 +36,10 @@
 // fullName= firstName.toUpperCase() + " "+ lastName.toUpperCase();
 // console.log(fullName);
 // city = "Kanpur" ;
-const firstName = "John";
-const lastName = "Doe" ;
-const age = "19" ;
-const city = "New York"
-console.log(firstName.concat(" " , lastName , ", " , age , " living in ", city , " goes to temple."));
+// const firstName = "John";
+// const lastName = "Doe" ;
+// const age = "19" ;
+// const city = "New York"
+// console.log(firstName.concat(" " , lastName , ", " , age , " living in ", city , " goes to temple."));
+const jsIntroduction = "JavaScript was invented by Brendan Eich in 1995, and became an ECMA standard in 1997.ECMA-262 is the official name of the standard. ECMAScript is the official name of the language."
+console.log(jsIntroduction.endsWith("."));
