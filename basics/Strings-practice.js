@@ -18,13 +18,13 @@
 
 
 // Strings in JS
-let firstName = "aman" ;
-let lastName = "kumar" ;
-const city = "jaipur" ;
+// let firstName = "aman" ;
+// let lastName = "kumar" ;
+// const city = "jaipur" ;
 //const city = new String("jaipur") ;
-console.log(city);
+//console.log(city);
 //console.log(`his name is ${firstName} ${lastName}`);
-let fullName = firstName + " " + lastName;
+// let fullName = firstName + " " + lastName;
 // caonsole.log(`his name is ${fullName}`);
 // console.log(`city name starts by ${city[0]}`);
 // console.log(`person name: ${lastName[0]} ${firstName[0]} lives in ${city[0]}`);
@@ -36,6 +36,8 @@ let fullName = firstName + " " + lastName;
 // fullName= firstName.toUpperCase() + " "+ lastName.toUpperCase();
 // console.log(fullName);
 // city = "Kanpur" ;
-let newVisitor = "               LOKESH             " ;
-console.log(newVisitor);
-console.log(newVisitor.trim());
+const firstName = "John";
+const lastName = "Doe" ;
+const age = "19" ;
+const city = "New York"
+console.log(firstName.concat(" " , lastName , ", " , age , " living in ", city , " goes to temple."));
